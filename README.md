@@ -1,5 +1,15 @@
 # movie-list
 
+## Create Project
+```
+# create project
+$ npm install -g @vue/cli
+$ vue create movie-list
+$ cd movie-list
+
+ref: http://vuejs.kr/vue/vue-cli/2018/01/27/vue-cli-3/
+```
+
 ## Project setup
 ```
 npm install
