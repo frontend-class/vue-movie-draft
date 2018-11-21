@@ -5,14 +5,14 @@
 
       <h2>현재상영작</h2>
       <div v-for="(movie, i) in releasedMovie"
-          :key="i">
-          <Poster v-bind:movie="movie" />
+        :key="i">
+        <Poster v-bind:movie="movie" />
       </div>
 
       <h2>개봉예정작</h2>
       <div v-for="movie in upcomingMovie"
-          :key="movie.id">
-          <Poster v-bind:movie="movie" />
+        :key="movie.id">
+        <Poster v-bind:movie="movie" />
       </div>
     </div>
 
